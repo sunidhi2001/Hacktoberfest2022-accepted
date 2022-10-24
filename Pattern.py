@@ -1,30 +1,30 @@
-word="HACK"
+word = "HACK"
 
-a=0
+a = 0
 
-x=""
+x = ""
 
-size=4
+size = 4
 
-m=2*size-2
+m = 2 * size - 2
 
-for i in range(0,size):
+for i in range(0, size):
 
-    for j in range(0,m):
+    for j in range(0, m):
 
         print(end=" ")
 
-    m=m-1
+    m = m - 1
 
-    for j in range(0,i+1):
+    for j in range(0, i + 1):
 
-        q=word[a]
+        q = word[a]
 
         print(q, end=" ")
 
-        a+=1
+        a += 1
 
-    a=0
+    a = 0
 
     print(" ")
 
@@ -32,29 +32,29 @@ print()
 
 print()
 
-w="OCTOBER"
+w = "OCTOBER"
 
-s=7
+s = 7
 
-o=2*s-3
+o = 2 * s - 3
 
-for i in range(0,s):
+for i in range(0, s):
 
-    for j in range(0,o):
+    for j in range(0, o):
 
         print(end=" ")
 
-    o-=1
+    o -= 1
 
-    for j in range(0,i+1):
+    for j in range(0, i + 1):
 
-        q=w[a]
+        q = w[a]
 
         print(q, end=" ")
 
-        a+=1
+        a += 1
 
-    a=0
+    a = 0
 
     print(" ")
 
@@ -62,33 +62,33 @@ print()
 
 print()
 
-word="FEST"
+word = "FEST"
 
-s=7
+s = 7
 
-o=2*s-3
+o = 2 * s - 3
 
-size=4
+size = 4
 
-m=2*size-2
+m = 2 * size - 2
 
-for i in range(0,size):
+for i in range(0, size):
 
-    for j in range(0,m):
+    for j in range(0, m):
 
         print(end=" ")
 
-    m=m-1
+    m = m - 1
 
-    for j in range(0,i+1):
+    for j in range(0, i + 1):
 
-        q=word[a]
+        q = word[a]
 
         print(q, end=" ")
 
-        a+=1
+        a += 1
 
-    a=0
+    a = 0
 
     print(" ")
 
