@@ -15,4 +15,4 @@ elif(a == 2):
     print("The Interest is:",ans)
     print("Total amount after",T,"years will be:",ans+P)
 else:
-    print("Invalid Input!")
+    print("Invalid Input!!")
