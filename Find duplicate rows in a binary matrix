@@ -1,0 +1,11 @@
+class Solution:
+    def repeatedRows(self, arr, m ,n):
+        d={}
+        ans=[]
+        for i in range(m):
+            temp=tuple(arr[i])
+            if temp in d:
+                ans.append(i)
+            else:
+                d[temp]=1
+        return ans
